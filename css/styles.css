@@ -1,0 +1,302 @@
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+
+.navbar-inverse .navbar-brand {
+    color:#47a78f;
+}
+
+@media (min-width:768px){
+    .navbar-nav, .navbar-inverse .navbar-nav>li>a{
+        float:right;
+        margin:0;
+        color:#5BD2B4;
+    }
+
+.active{
+    border-bottom-color: #5BD2B4;
+    border-bottom: 1px dotted;
+
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+.top-header {
+    height: 600px;
+    background: url('../imgs/servers.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.service-header {
+    height: 400px;
+    background: url('../imgs/network4.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.about-header {
+    height: 400px;
+    background: url('../imgs/aboutUs.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-header {
+    height: 400px;
+    background: url('../imgs/contactHdr.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 2px #000;
+    color: #fff;
+    margin-top:225px;
+}
+
+.tagliner {
+    text-shadow: 0 0 2px #000;
+    color: #fff;
+    margin-top:175px;
+}
+
+
+.tagLink{
+    color:#5BD2B4;
+    text-transform: uppercase;
+    text-shadow: 0 0 4px #000;
+
+
+}
+
+.ipimg{
+    margin-top:15px;
+}
+
+.section{
+    background: url(../imgs/pattern.png);
+    background-repeat: repeat-x repeat-y;
+    padding:50px 105px;
+}
+
+.sectionTxt{
+    color:#fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.footertext{
+    text-align: center;
+}
+
+.footerLink{
+    text-decoration: none;
+    color:#000;
+}
+
+.footerLink:hover{
+    text-decoration: none;
+}
+
+
+.servicetext{
+    padding:20px;
+    text-align: justify;
+}
+
+/* =================================
+About Page
+================================= */ 
+
+.aboutTitle{
+    color: #999;
+    font-family: Negotiate, Tahoma, Geneva, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.aboutBox{
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.aboutIcon{
+  color: #999;
+  font-family: Negotiate, Tahoma, Geneva, sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+/* =================================
+Price Table
+================================= */ 
+.price-table {
+    background: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: 7px solid #eeeeee;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.price-table:hover{
+    background: rgba(0,0,0, .03);
+    border-color: #666;
+
+}
+.price-table .price-table-body:hover {
+    background: #5BD2B4;
+}
+
+.price-table > .price-table-heading {
+    color: #333333;
+    background: #f9f9f9;
+    padding: 10px 0;
+    margin: 0;
+}
+.price-table .price-table-heading .title {
+    color: #333333;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.price-table > .price-table-body {
+    color: #FFFFFF;
+    background: #666;
+    padding: 50px 0 30px;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.price-table > .price-table-body .value {
+    font-size: 66px;
+    font-weight: 300;
+    color: #FFFFFF;
+    padding: 0;
+}
+.price-table > .price-table-body .value small {
+    font-size: 16px;
+}
+.price-table > .list-group {
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.price-table > .list-group .list-group-item {
+    color: #333;
+    font-weight: 400;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;   
+}
+.price-table .btn {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.price-table-footer {
+    background: #eeeeee;
+    padding: 15px 0;
+}
+
+
+
+/* =================================
+Contact Page
+================================= */ 
+
+.contactHeader {
+  color: #5BD2B4;
+  font-size: 28px;
+  padding-bottom: 5px;
+}
+
+.contitle{
+  margin-top:0px;
+}
+
+.btn-primary{
+  color:#fff;
+  background-color: #5BD2B4;
+  border-color:#2ED2A9;
+}
+
+a.btn-conIcon{
+  color:#5BD2B4;
+}
+
+/* =================================
+Scroll To Top
+================================= */ 
+.to-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url(../imgs/arrow-up2.png) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.to-top.to-is-visible, .to-top.to-fade-out, .no-touch .to-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.to-top.to-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.to-top.to-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .to-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .to-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .to-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
